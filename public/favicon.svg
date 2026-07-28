@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Cost of Living">
+  <rect x="1" y="1" width="30" height="30" rx="8" fill="#12433f"/>
+  <!-- rising price line -->
+  <polyline points="6,22 12,16 17,19 26,8" fill="none" stroke="#e79a3a" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="26" cy="8" r="2.4" fill="#e79a3a"/>
+  <!-- dollar mark -->
+  <text x="7" y="13" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="700" fill="#fdf6ea">$</text>
+</svg>

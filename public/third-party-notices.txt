@@ -1,0 +1,18 @@
+Third-party notices — Cost of Living (au-inflation)
+
+This site ships NO third-party runtime components. The entire application is
+first-party TypeScript, hand-rolled SVG charts, and system fonts. There are no
+bundled JavaScript libraries, no web fonts, and no external map/tile libraries.
+(Verified from the build source maps: no node_modules sources are emitted into dist/.)
+
+The build toolchain (Vite, TypeScript, Vitest, jsdom) runs only at build time and
+is NOT distributed in the deployed site.
+
+Data sources (attribution required by their CC BY 4.0 licences):
+- Australian Bureau of Statistics — Consumer Price Index, Australia (dataflow CPI),
+  via data.api.abs.gov.au. (c) Commonwealth of Australia, CC BY 4.0.
+- Australian Bureau of Statistics — Wage Price Index, Australia (dataflow WPI),
+  via data.api.abs.gov.au. (c) Commonwealth of Australia, CC BY 4.0.
+
+Attribution is preserved in the site footer and About panel. This site is an
+independent project and is not affiliated with or endorsed by the ABS.
